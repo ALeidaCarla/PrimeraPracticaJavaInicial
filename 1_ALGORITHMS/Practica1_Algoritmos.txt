@@ -1,0 +1,136 @@
+EJERCICIO 3: AUTOBÚS
+Mary compro un pase con valor de 45 Bs. Que le da derecho a viajar en autobús 
+tantas veces como quiera durante un mes. Sin el pase, cada viaje cuesta 1.80 Bs. 
+¿Suponiendo que no tiene un pase de Autobús, ¿Cuántos viajes podría realizar 
+Mary por el mismo precio, es decir, pagando la tarifa normal por viaje?
+Realice un algoritmo que explique cómo calcular lo que se pide.
+Restricciones
+• Ninguna en particular
+RESPUESTA:
+Inicio
+1. Tomar en cuenta el monto inicial es 45 Bs
+2. Realizar la compra de un viaje en autobus 1 viaje = 1.80 Bs
+3. Actualizar el saldo total 
+4. Si el saldo es igual a cero o menor a 1.80 Bs continuar sino es asi repetir el paso #2
+5. Indicar la cantidad total de viajes comprados 
+Fin
+
+EJERCICIO 4: ALHANDAL
+En el país de Alhandal solo hay monedas de 1 Bs, 5 Bs y 10 Bs. 
+Una moneda de 10Bs. pesa 5 gr, una moneda de 5 Bs. pesa 3 gr. y una moneda 
+de 1 Bs. Pesa 1 gr. 
+Si Juliet tiene dinero en una bolsa, pero no sabe cuánto es, solo sabe que pesa 
+67gr.
+Juliet quiere saber cuanto dinero tendría, suponiendo que las monedas dentro 
+de la bolsa, logran el mayor valor posible de dinero.
+Realice un algoritmo que te permita saber lo indicado anteriormente.
+Restricciones
+• Ninguna en particular
+RESPUESTA:
+Inicio
+1. tomar en cuenta que el peso inicial es 67 gr
+2. considerando que 10 bs es el mayor valor de dinero para 5gr  disminuir esta cantidad de peso 
+3. Actualizar el peso restante
+4. Si el peso restante es  menor a 5grs pasar siguiente paso si no es asi repetir el paso #2
+5. Actualizar el peso restante
+6. Si el saldo es menor a 5grs disminuir la cantidad de 1gr
+5. Actualizar el peso restante
+7. Si el peso restante es  menor a 1gr pasar al siguiente paso si no es asi repetir el paso #6
+8. Indicar la valor del peso
+Fin
+resultado 132bs
+
+EJERCICIO 5: CALCULANDO LONGITUD
+En la figura se puede ver, la línea punteada y el camino negro forman siete 
+triángulos equiláteros. La longitud de la línea punteada es 20. ¿Cuál es la 
+longitud del camino negro?
+Realice un algoritmo que explique cómo resolver el ejercicio.
+Restricciones
+• Un triángulo equilátero es aquel que tiene todos sus lados iguales
+RESPUESTA:
+Inicio
+1. considerando el grafico , la suma total de un lado de los triangulos y teniendo encuenta que son equilateros
+2. incrementarduplicar el valor de el largo total
+8. Indicar el valor  largo total
+Fin
+resultado 40 unidades
+
+EJERCICIO 6: INSOMNIO
+El insomnio en este tiempo es terrible y bastante común, es por eso que nos 
+interesa saber, cuánto tiempo en minutos duermen los jóvenes de hoy. 
+Teniendo en cuenta que duermen a las 2:45 y despiertan a las 11:25.
+Restricciones
+• Las horas se están manejando en formato de 24hrs.
+RESPUESTA:
+Inicio
+1. tomar en cuenta 2.45 am como hora inicial
+2. considerando el formato 24hrs incrementar la cantidad de 1 hr
+3. Si hora actualizada es igual  a 10.45 pasar siguiente paso si no es  asi repetir el paso #2
+4. considerando  que la hora actualizada es igual  a 10.45  incrementar 1 minuto
+5. Actualizar la hora
+6. Si la hora actualizada es igual  a 11.25 pasar al siguiente paso si no es asi repetir el paso #5
+7. Indicar la cantidad total de de horas y minutos
+Fin
+resultado 
+
+EJERCICIO 7: LA BATERIA
+El nivel de batería de los celulares reduce bastante rápido cuando se lo usa 
+demasiado, por ejemplo:
+• Jugar en el celular: En 1 hora, consume 20% de Batería
+• Revisar redes sociales; En 1 hora, consume 10% de Batería
+• Ver videos de Youtube; En 1 hora se consume 15% de Batería.
+Si tengo 55% de batería actualmente en mi celular y juego media hora, veo mis 
+redes sociales solo por 15 min y además veo videos en YouTube por 40 min. 
+¿Cuánto de batería me quedara después?
+Realice un algoritmo que explique como obtener la respuesta a la pregunta.
+Restricciones
+• Ninguna en particular
+RESPUESTA:
+Inicio
+1. considerandoel valor inicial de la baretia y los valores de consumo de bateria 30min=10% ,15min=2,5% y 40min=10% sumar el porcentaje de consumo de la bateria   
+2. disminuir el valor total de consumo al valor inicial
+3. Actualizar el consumo
+4. Indicar la cantidad total de bateria restante
+Fin
+resultado 32.5%
+
+
+EJERCICIO 8: EL YOUTUBER
+Enrique es un muchacho que le encanta editar videos y luego subirlos a 
+YouTube, a él no le gusta que sus videos duren más de 15 min. Por lo tanto, 
+siempre tiene el problema de no saber cuántas canciones podrían ser parte del 
+video. Teniendo en cuenta que las canciones pueden tener un valor de duración 
+mínima de 2:30 min hasta un máximo de duración de 3:00 min. ¿Cuál es la 
+cantidad máxima de canciones que pueden entrar para ser parte del video?
+Realice un algoritmo que explique cómo obtener la respuesta a la pregunta.
+Restricciones
+• Ninguna en particular
+
+Inicio
+1.
+Fin
+
+EJERCICIO 9: LA MAQUINA DE VERIFICACION
+Si en lugar de ser militares, quienes controlan la entrada a los mercados 
+verificando si realmente es el día que te corresponde salir, ¿tendríamos robots? 
+Recordar que ellos lo que hacen es ver tu número de carnet, aunque en realidad 
+solo les interesa el último número. Ahora imaginemos que tenemos maquinas 
+verificadoras que permiten o rechazan el ingreso al mercado, teniendo el 
+número de carnet… ¿cómo hacer para quedarse solamente con el ultimo digito 
+del número?
+Realice un algoritmo que explique cómo realizar esta tarea.
+Restricciones
+• Ninguna en particular
+RESPUESTA:
+Inicio
+1.  ingresar el numero de ci 
+2. 
+Fin
+
+EJERCICIO 10: REGLAS DEL HOGAR
+Siempre hay reglas en la casa, en la mía tengo que preparar la cena pasando un 
+día. Siendo hoy día MIERCOLES. ¿Cuántos días deben pasar hasta que vuelva a 
+ser mi turno de preparar la cena un día MIERCOLES?
+Realice un algoritmo que explique cómo hallar la respuesta.
+Restricciones
+• Ninguna en particular
